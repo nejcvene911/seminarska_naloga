@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flappy bird Vene</title>
+    <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+    <style> 
+        body{
+            padding: 0;
+            margin: 0;
+            user-select: none;
+        }
+        canvas{
+            border: 1px solid #000;
+            display: block;
+            margin: 0 auto;
+        }
+        .background{
+            position: absolute;
+            background: url("img/flappy_bird_ozadje.jpg") no-repeat center center / cover;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        #vene{    
+            text-align: center;
+            font-family: sans-serif;
+            color: goldenrod;
+            padding: 5px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <br>
+    <canvas id="bird" width="320" height="480"></canvas>
+    <div width="320" height="480" id="vene"><b>Vene</b></div>
+
+    <script src="game.js"></script>
+</body>
+</html>

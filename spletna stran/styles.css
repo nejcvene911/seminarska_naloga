@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #70c5ce;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.naslov{
+    margin: auto;
+    width: 1080px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fcb900;
+    border-radius: 0 0 20px 20px;
+}
+
+.telo{
+    margin: auto;
+    width: 1080px;
+}
+
+.telo a {
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.telo a:hover {
+    color: #fcb900;
+}
+
+.rtelo {
+    margin: auto;
+    width: 1080px;
+    padding: 50px 0;
+}
+
+#play a{
+    position: absolute;
+    top: 45px;
+    right: 500px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #333;
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-shadow: 1px 1px 1px Black;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#play a:hover {
+    background-color: #7f8c8d;
+    word-spacing: 4px;
+}
+
+.noga {
+    text-align: center;
+    width: 1080px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    background-color: #fcb900;
+    color: #7f8c8d;
+}
+
+.prenos {
+    text-align: center;
+}
+
+#prenos a{
+    padding: 10px;
+    background-color: #2980b9;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px Black;
+    transition: 0.3s;
+}
+
+#prenos a:hover {
+    background-color: #3498db;
+    word-spacing: 3px;
+}
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border: solid 3px #141414;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
